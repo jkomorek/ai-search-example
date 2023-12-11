@@ -1,0 +1,9 @@
+# (mac) Setup Python and environment
+
+brew install pyenv
+pyenv install 3.12.1
+pyenv global 3.12.1
+pyenv init
+
+python -m venv .venv
+source .venv/bin/activate
